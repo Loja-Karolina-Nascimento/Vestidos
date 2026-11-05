@@ -1,0 +1,12 @@
+// Catálogo ilustrativo: substitua fotos, nomes, preços, cores e tamanhos pelos itens reais.
+// Fotos externas de demonstração via Unsplash; confirme direitos de uso antes de lançar a loja.
+const PRODUCTS = [
+{id:1,name:'Vestido Aurora',category:'Midi',price:149.90,tag:'MAIS AMADO',sizes:['M','G','G1'],colors:['Vinho','Preto'],image:'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=85',description:'Um vestido elegante para ocasiões especiais, com caimento delicado.'},
+{id:2,name:'Vestido Serena',category:'Longo',price:189.90,tag:'DESTAQUE',sizes:['M','G','G2'],colors:['Verde','Azul'],image:'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=85',description:'Comprimento longo e visual sofisticado para composições femininas.'},
+{id:3,name:'Vestido Elisa',category:'Midi',price:159.90,tag:'NOVIDADE',sizes:['Único','G'],colors:['Rosa','Nude'],image:'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=700&q=85',description:'Uma proposta delicada e versátil para diferentes momentos.'},
+{id:4,name:'Vestido Helena',category:'Curto',price:139.90,tag:'ESPECIAL',sizes:['M','G'],colors:['Branco','Preto'],image:'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=85',description:'Estilo leve com acabamento elegante e personalidade.'},
+{id:5,name:'Vestido Amélia',category:'Longo',price:199.90,tag:'ELEGANTE',sizes:['M','G','G1','G2'],colors:['Azul','Vinho'],image:'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=85',description:'Uma peça de presença marcante para eventos especiais.'},
+{id:6,name:'Vestido Lívia',category:'Midi',price:169.90,tag:'CLÁSSICO',sizes:['M','G','G1'],colors:['Bege','Marrom'],image:'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=85',description:'Combina simplicidade, conforto e elegância.'},
+{id:7,name:'Vestido Cecília',category:'Longo',price:179.90,tag:'DELICADO',sizes:['Único','G'],colors:['Lavanda','Rosa'],image:'https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=700&q=85',description:'Uma escolha charmosa para quem gosta de um estilo romântico.'},
+{id:8,name:'Vestido Valentina',category:'Midi',price:154.90,tag:'VERSÁTIL',sizes:['M','G','G2'],colors:['Preto','Verde'],image:'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=700&q=85',description:'Peça versátil para looks de dia ou de noite.'}
+];
